@@ -1,7 +1,7 @@
 #/bin/bash
 
 # download zip
-poetry run python update.py
+poetry run python download.py
 
 # clean up
 rm -rf bedrock_new/
